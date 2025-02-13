@@ -17,5 +17,6 @@ subtitles.login(MY_USERNAME, MY_PASSWORD)
 response = subtitles.search(query="breaking bad", season_number=1, episode_number=1, languages="en")
 response_dict = response.to_dict()
 print(response_dict)
-srt = subtitles.download_and_save(response.data[0])
-print(srt)
+srt = subtitles.download(response.data[0])
+with open ("breaking_bad.srt", "wb") as f:
+    f.write(srt)
