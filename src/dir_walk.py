@@ -6,8 +6,6 @@ def walk_dir(path):
         for file in files:
             yield file
     
-for file in walk_dir("."):
-    print(file)
 
 def crate_folder(path): 
     if not os.path.exists(path):        
@@ -16,8 +14,12 @@ def crate_folder(path):
 def get_paths_off_media(path):
     paths = []
     for file in walk_dir(path):
-        if file.endswith(FORMATS):
+        file=os.path.splitext(file)
+        if file[1] in FORMATS:
             paths.append(file)
     return paths        
 
-crate_folder("subs")
+for file in get_paths_off_media("."):
+    print(file)
+
+# crate_folder("subs")
