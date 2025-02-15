@@ -11,6 +11,7 @@ def crate_folder(path):
     if not os.path.exists(path):        
         os.makedirs(path)
 
+
 def get_paths_off_media(path):
     paths = []
     for file in walk_dir(path):

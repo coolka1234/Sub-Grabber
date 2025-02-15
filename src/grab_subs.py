@@ -20,3 +20,13 @@ print(response_dict)
 srt = subtitles.download(response.data[0])
 with open ("breaking_bad.srt", "wb") as f:
     f.write(srt)
+
+def get_subs(query, season_number, episode_number, language, sub_name):
+    response = subtitles.search(query=query, season_number=season_number, episode_number=episode_number, languages=language)
+    response_dict = response.to_dict()
+    print(response_dict)
+    srt = subtitles.download(response.data[0])
+    if sub_name is None:
+        sub_name = query
+    with open (f"{sub_name}.srt", "wb") as f:
+        f.write(srt)
