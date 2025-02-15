@@ -1,5 +1,5 @@
 import os
-from consts import FORMATS
+from constants import FORMATS
 
 def walk_dir(path):
     for root, dirs, files in os.walk(path):
@@ -19,7 +19,5 @@ def get_paths_off_media(path):
             paths.append(file)
     return paths        
 
-for file in get_paths_off_media("."):
-    print(file)
 
-# crate_folder("subs")
+
