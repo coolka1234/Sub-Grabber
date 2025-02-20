@@ -20,5 +20,8 @@ def get_paths_off_media(path):
             paths.append(file)
     return paths        
 
+if __name__=="__main__":
+    print(get_paths_off_media("smb://100.70.137.122/myfiles/"))
+
 
 
