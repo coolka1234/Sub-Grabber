@@ -1,8 +1,8 @@
 import os
 from sys import path
+from extract_info import MediaInfo
 from log.log import log_instance
 from constants import FORMATS
-from extract_info import MediaInfo
 
 def walk_dir(path):
     for root, dirs, files in os.walk(path):
@@ -22,8 +22,8 @@ def get_paths_off_media(path):
         log_instance.info(f"Found MEDIA file: {file}")
         try:
             extension=os.path.splitext(file)[1][1:]
-            if extension in FORMATS:
-                paths.append(os.path.join(path, file))
+            if extension in FORMATS or extension=="srt":
+                paths.append(MediaInfo(path))
         except IndexError:
             pass
     return paths         
