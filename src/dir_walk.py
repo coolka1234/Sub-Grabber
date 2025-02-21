@@ -1,4 +1,5 @@
 import os
+from log.log import log_instance
 from constants import FORMATS
 
 def walk_dir(path):
@@ -13,11 +14,13 @@ def crate_folder(path):
 
 
 def get_paths_off_media(path):
+    log_instance.info(f"Looking for MEDIA files in {path}")
     paths = []
     for file in walk_dir(path):
-        file=os.path.splitext(file)
+        log_instance.info(f"Found MEDIA file: {file}")
         try:
-            if file[1] in FORMATS:
+            extension=os.path.splitext(file)[1][1:]
+            if extension in FORMATS:
                 paths.append(file)
         except IndexError:
             pass
@@ -26,6 +29,7 @@ def get_paths_off_media(path):
 def find_subs(path):
     list_of_subs = []
     for file in os.listdir(path):
+        log_instance.info(f"Found SUB file: {file}")
         if file.endswith(".srt"):
             list_of_subs.append(file)
     return list_of_subs
@@ -35,6 +39,7 @@ def fit_subs(media_name, sub):
     sub = sub.split(".")
     if not media_name[0] == sub[0]:
         os.rename(sub, media_name[0]+".srt")
+        log_instance.info(f"Renamed {sub} to {media_name[0]+'.srt'}")
 
 if __name__=="__main__":
     print(get_paths_off_media("smb://100.70.137.122/myfiles/"))

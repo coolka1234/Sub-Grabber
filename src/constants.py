@@ -1,1 +1,1 @@
-FORMATS=['.mkv', '.mp4', '.avi', '.mov']
+FORMATS=['mkv', 'mp4', 'avi', 'mov']
