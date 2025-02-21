@@ -3,6 +3,7 @@ from sys import path
 from extract_info import MediaInfo, match_media
 from log.log import log_instance
 from constants import FORMATS
+import shutil
 
 def walk_dir(path):
     for root, dirs, files in os.walk(path):
@@ -23,7 +24,7 @@ def get_paths_off_media(path):
         try:
             extension=os.path.splitext(file)[1][1:]
             if extension in FORMATS or extension=="srt":
-                paths.append(MediaInfo(path))
+                paths.append(MediaInfo(os.path.join(path, file)))
         except IndexError:
             pass
     return paths         
@@ -42,11 +43,17 @@ def find_subs(file_path):
 def fit_subs(MediaList):
     matched_media=match_media(MediaList)
     for media in matched_media:
-        if media[0].path!=media[1].path:
-            os.rename(media[1].path, media[0].path.replace(".mkv", ".srt"))
-            log_instance.info(f"Subtitles for {media[0].path} matched and renamed")
+        if len(media)==2:
+            if media[0].path!=media[1].path:
+                try:
+                    shutil.copy(media[1].path, media[0].path.replace(media[0].path.split(".")[-1], "srt"))
+                except shutil.SameFileError:
+                    pass
+                log_instance.info(f"Subtitles for {media[0].path} matched and renamed")
+            else:
+                log_instance.info(f"Subtitles for {media[0].path} matched")
         else:
-            log_instance.info(f"Subtitles for {media[0].path} matched")
+            log_instance.info(f"Subtitles for {media[0].path} not found")
     return matched_media
 
 if __name__=="__main__":

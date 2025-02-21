@@ -56,3 +56,96 @@
 2025-02-21 14:17:51,633 - log - INFO - Looking for SUB files in /home/coolka/projects/python/SubGrabber/test_folder
 2025-02-21 14:17:51,633 - log - INFO - Found SUB file: test.mkv
 2025-02-21 14:17:51,633 - log - INFO - Found SUB file: test_skbidi.srt
+2025-02-21 16:47:31,049 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 16:47:31,050 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 16:47:31,052 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 16:47:31,052 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x74956b227620>, <extract_info.MediaInfo object at 0x74956b4560d0>]
+2025-02-21 17:03:50,782 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:03:50,782 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:03:50,783 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:03:50,783 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x75be2e673cb0>, <extract_info.MediaInfo object at 0x75be2e65a350>]
+2025-02-21 17:04:43,101 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:04:43,101 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:04:43,102 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:04:43,102 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x7f324c447cb0>, <extract_info.MediaInfo object at 0x7f324c42e490>]
+2025-02-21 17:05:40,292 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:05:40,292 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:06:00,753 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:06:00,753 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:06:00,753 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:06:00,754 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:06:00,754 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:06:00,755 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x7a421749bcb0>, <extract_info.MediaInfo object at 0x7a4217486350>]
+2025-02-21 17:09:08,855 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:09:08,855 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:09:08,855 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:09:08,856 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:09:08,856 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:09:08,856 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x735c08687cb0>, <extract_info.MediaInfo object at 0x735c088b6490>]
+2025-02-21 17:10:09,581 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:10:09,582 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:10:09,582 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:10:09,583 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:10:09,583 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:10:09,583 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x78f3718c7cb0>, <extract_info.MediaInfo object at 0x78f3718b2350>]
+2025-02-21 17:11:10,748 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:11:10,749 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:11:10,749 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:11:10,750 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:11:10,750 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:11:10,751 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x78c4502dbcb0>, <extract_info.MediaInfo object at 0x78c4502c6350>]
+2025-02-21 17:12:03,102 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:12:03,102 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:12:03,103 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:12:03,104 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:12:03,104 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:12:03,104 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x77f0bf1afcb0>, <extract_info.MediaInfo object at 0x77f0bf19a350>]
+2025-02-21 17:12:03,104 - log - INFO - Comparing /home/coolka/projects/python/SubGrabber/test_folder/test.mkv and /home/coolka/projects/python/SubGrabber/test_folder/test.mkv with ratio of 0.0
+2025-02-21 17:12:03,104 - log - INFO - Comparing /home/coolka/projects/python/SubGrabber/test_folder/test.mkv and /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt with ratio of 0.0
+2025-02-21 17:12:03,104 - log - INFO - Comparing /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt and /home/coolka/projects/python/SubGrabber/test_folder/test.mkv with ratio of 0.0
+2025-02-21 17:12:03,104 - log - INFO - Comparing /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt and /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt with ratio of 0.0
+2025-02-21 17:12:55,020 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:12:55,020 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:12:55,021 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:12:55,022 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:12:55,022 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:12:55,022 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x7105a2ea3cb0>, <extract_info.MediaInfo object at 0x7105a2e8e350>]
+2025-02-21 17:12:55,022 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 0.0
+2025-02-21 17:12:55,023 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 0.0
+2025-02-21 17:12:55,023 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 0.0
+2025-02-21 17:12:55,023 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 0.0
+2025-02-21 17:14:37,967 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:14:37,968 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:14:37,968 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:14:37,969 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:14:37,969 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:14:37,969 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x748d40143cb0>, <extract_info.MediaInfo object at 0x748d4012e350>]
+2025-02-21 17:14:37,970 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 1.0
+2025-02-21 17:14:37,970 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 1.0
+2025-02-21 17:14:37,970 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 1.0
+2025-02-21 17:14:37,970 - log - INFO - Comparing /home/coolka/projects/python/ and /home/coolka/projects/python/ with ratio of 1.0
+2025-02-21 17:15:13,499 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:15:13,499 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:15:13,499 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:15:13,501 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:15:13,501 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:15:13,501 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x7ae6fc8afcb0>, <extract_info.MediaInfo object at 0x7ae6fc89a350>]
+2025-02-21 17:15:13,501 - log - INFO - Comparing te and te with ratio of 1.0
+2025-02-21 17:15:13,501 - log - INFO - Comparing te and te with ratio of 1.0
+2025-02-21 17:15:13,501 - log - INFO - Comparing te and te with ratio of 1.0
+2025-02-21 17:15:13,501 - log - INFO - Comparing te and te with ratio of 1.0
+2025-02-21 17:15:52,343 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:15:52,343 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:15:52,344 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:15:52,345 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 17:15:52,345 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test_skbidi.srt
+2025-02-21 17:15:52,345 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x7805b7943cb0>, <extract_info.MediaInfo object at 0x7805b792e350>]
+2025-02-21 17:15:52,345 - log - INFO - Comparing test.mkv and test.mkv with ratio of 1.0
+2025-02-21 17:15:52,345 - log - INFO - Comparing test.mkv and test_skbidi.srt with ratio of 0.43478260869565216
+2025-02-21 17:15:52,345 - log - INFO - Comparing test_skbidi.srt and test.mkv with ratio of 0.43478260869565216
+2025-02-21 17:15:52,345 - log - INFO - Comparing test_skbidi.srt and test_skbidi.srt with ratio of 1.0
+2025-02-21 17:16:29,902 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 17:16:29,902 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 17:16:29,903 - log - INFO - Extracting information from /home/coolka/projects/python/SubGrabber/test_folder/test.mkv
+2025-02-21 17:16:29,904 - log - INFO - Returned MEDIA paths: [<extract_info.MediaInfo object at 0x775ce12a3cb0>]
+2025-02-21 17:16:29,904 - log - INFO - Comparing test.mkv and test.mkv with ratio of 1.0

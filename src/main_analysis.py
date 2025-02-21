@@ -6,6 +6,8 @@ from log.log import log_instance
 def main(path, **kwargs):
     paths=get_paths_off_media(path)
     log_instance.info(f"Returned MEDIA paths: {paths}")
+    for elem in paths:
+        print(elem)
     fit_subs(paths)
         
 if __name__=="__main__":
