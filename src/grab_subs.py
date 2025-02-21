@@ -24,3 +24,4 @@ def get_subs(query, season_number, episode_number, language, sub_name):
         sub_name = query
     with open (f"{sub_name}.srt", "wb") as f:
         f.write(srt)
+
