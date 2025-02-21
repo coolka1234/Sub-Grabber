@@ -10,4 +10,4 @@ def main(path, **kwargs):
             fit_subs(path, sub)
         
 if __name__=="__main__":
-    main("test_folder")
+    main("/test_folder")
