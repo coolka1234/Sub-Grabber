@@ -18,3 +18,41 @@
 2025-02-21 14:14:45,618 - log - INFO - Found MEDIA file: test.mkv
 2025-02-21 14:14:45,618 - log - INFO - Found MEDIA file: test_skbidi.srt
 2025-02-21 14:14:45,618 - log - INFO - Returned MEDIA paths: ['test.mkv']
+2025-02-21 14:16:07,350 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 14:16:07,350 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 14:16:07,351 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 14:16:07,351 - log - INFO - Returned MEDIA paths: ['/home/coolka/projects/python/SubGrabber/test_folder/test.mkv']
+2025-02-21 14:17:16,981 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 14:17:16,981 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 14:17:16,981 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 14:17:16,982 - log - INFO - Returned MEDIA paths: ['/home/coolka/projects/python/SubGrabber/test_folder']
+2025-02-21 14:17:16,982 - log - INFO - Looking for SUB files in /home/coolka/projects/python/SubGrabber
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: .git
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: src
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: main.py
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: subs
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: test.mkv
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: test_folder
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: .gitignore
+2025-02-21 14:17:16,982 - log - INFO - Found SUB file: log.log
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: .env
+2025-02-21 14:17:16,983 - log - INFO - Looking for SUB files in /home/coolka/projects/python/SubGrabber
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: .git
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: src
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: main.py
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: subs
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: test.mkv
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: test_folder
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: .gitignore
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: log.log
+2025-02-21 14:17:16,983 - log - INFO - Found SUB file: .env
+2025-02-21 14:17:51,632 - log - INFO - Looking for MEDIA files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 14:17:51,633 - log - INFO - Found MEDIA file: test.mkv
+2025-02-21 14:17:51,633 - log - INFO - Found MEDIA file: test_skbidi.srt
+2025-02-21 14:17:51,633 - log - INFO - Returned MEDIA paths: ['/home/coolka/projects/python/SubGrabber/test_folder/test.mkv']
+2025-02-21 14:17:51,633 - log - INFO - Looking for SUB files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 14:17:51,633 - log - INFO - Found SUB file: test.mkv
+2025-02-21 14:17:51,633 - log - INFO - Found SUB file: test_skbidi.srt
+2025-02-21 14:17:51,633 - log - INFO - Looking for SUB files in /home/coolka/projects/python/SubGrabber/test_folder
+2025-02-21 14:17:51,633 - log - INFO - Found SUB file: test.mkv
+2025-02-21 14:17:51,633 - log - INFO - Found SUB file: test_skbidi.srt

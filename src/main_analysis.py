@@ -7,7 +7,6 @@ def main(path, **kwargs):
     paths=get_paths_off_media(path)
     log_instance.info(f"Returned MEDIA paths: {paths}")
     for path in paths:
-        find_subs(path)
         for sub in find_subs(path):
             fit_subs(path, sub)
         

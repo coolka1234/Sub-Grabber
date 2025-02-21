@@ -1,6 +1,8 @@
 import os
+from sys import path
 from log.log import log_instance
 from constants import FORMATS
+from extract_info import MediaInfo
 
 def walk_dir(path):
     for root, dirs, files in os.walk(path):
@@ -21,13 +23,15 @@ def get_paths_off_media(path):
         try:
             extension=os.path.splitext(file)[1][1:]
             if extension in FORMATS:
-                paths.append(file)
+                paths.append(os.path.join(path, file))
         except IndexError:
             pass
     return paths         
 
-def find_subs(path):
+def find_subs(file_path):
     list_of_subs = []
+    path=os.path.dirname(file_path)
+    log_instance.info(f"Looking for SUB files in {path}")
     for file in os.listdir(path):
         log_instance.info(f"Found SUB file: {file}")
         if file.endswith(".srt"):
