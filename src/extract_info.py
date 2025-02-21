@@ -38,8 +38,15 @@ class MediaInfo:
         return f"Name: {self.name}, Season: {self.season}, Episode: {self.episode}"
     
 def match_media(MediaList):
-    
-
+    matched=[]
+    for media in MediaList:
+        for value in MediaList:
+            if media == value:
+                if media.srt_media == "video":
+                    matched.append(media, value)
+                else:
+                    matched.append(value, media)
+    return matched
 #test
 if __name__ == "__main__":
     path = "House_MD_S01E01.mkv"

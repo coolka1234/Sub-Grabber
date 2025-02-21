@@ -1,6 +1,6 @@
 import os
 from sys import path
-from extract_info import MediaInfo
+from extract_info import MediaInfo, match_media
 from log.log import log_instance
 from constants import FORMATS
 
@@ -38,12 +38,16 @@ def find_subs(file_path):
             list_of_subs.append(file)
     return list_of_subs
 
-def fit_subs(media_name, sub):
-    media_name = media_name.split(".")
-    sub = sub.split(".")
-    if not media_name[0] == sub[0]:
-        os.rename(sub, media_name[0]+".srt")
-        log_instance.info(f"Renamed {sub} to {media_name[0]+'.srt'}")
+
+def fit_subs(MediaList):
+    matched_media=match_media(MediaList)
+    for media in matched_media:
+        if media[0].path!=media[1].path:
+            os.rename(media[1].path, media[0].path.replace(".mkv", ".srt"))
+            log_instance.info(f"Subtitles for {media[0].path} matched and renamed")
+        else:
+            log_instance.info(f"Subtitles for {media[0].path} matched")
+    return matched_media
 
 if __name__=="__main__":
     print(get_paths_off_media("smb://100.70.137.122/myfiles/"))
