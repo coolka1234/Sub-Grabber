@@ -51,6 +51,10 @@
             "Jellyfin.Model": {
               "target": "Package",
               "version": "[10.10.6, )"
+            },
+            "Topdev.OpenSubtitles.Client": {
+              "target": "Package",
+              "version": "[1.3.0, )"
             }
           },
           "imports": [

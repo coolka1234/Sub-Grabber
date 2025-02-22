@@ -16,11 +16,15 @@ namespace Jellyfin.Plugins.SubtitleGrabber
         private readonly ILibraryManager _libraryManager;
         private readonly ILogger<SubtitleCheckerService> _logger;
         private Timer _timer;
+        private OpenSubtitlesClient _openSubtitlesClient;
+
 
         public SubtitleCheckerService(ILibraryManager libraryManager, ILogger<SubtitleCheckerService> logger)
         {
             _libraryManager = libraryManager;
             _logger = logger;
+            _openSubtitlesClient = new OpenSubtitlesAPI();
+
         }
 
         public Task StartAsync(CancellationToken cancellationToken)
@@ -42,8 +46,14 @@ namespace Jellyfin.Plugins.SubtitleGrabber
                     if (!HasSubtitles(movie))
                     {
                         _logger.LogInformation($"Movie '{movie.Name}' does not have subtitles.");
-                        // TODO: Trigger subtitle download via OpenSubtitles API.
-                    }
+                        //TODO logowanie do API
+                        await _openSubtitlesClient.LogInAsync();
+                        var subtitles = await _openSubtitlesClient.SearchSubtitlesAsync(movie.Name);
+                        if (subtitles.Any())
+                        {
+                            _logger.LogInformation($"Found {subtitles.Count()} subtitles for '{movie.Name}'.");
+                        
+                        }
                 }
 
                 var episodes = _libraryManager.GetItemsByType("Episode");
@@ -53,6 +63,12 @@ namespace Jellyfin.Plugins.SubtitleGrabber
                     {
                         _logger.LogInformation($"Episode '{episode.Name}' does not have subtitles.");
                         // TODO: Trigger subtitle download.
+                        await _openSubtitlesClient.LogInAsync();
+                       var subtitles = await _openSubtitlesClient.SearchSubtitlesAsync(episode.Name);
+                        if (subtitles.Any())
+                        {
+                            _logger.LogInformation($"Found {subtitles.Count()} subtitles for '{episode.Name}'.");
+                        }
                     }
                 }
             }

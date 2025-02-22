@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Jellyfin.Controller" Version="10.10.6" />
     <PackageReference Include="Jellyfin.Model" Version="10.10.6" />
+    <PackageReference Include="Topdev.OpenSubtitles.Client" Version="1.3.0" />
   </ItemGroup>
 
 </Project>

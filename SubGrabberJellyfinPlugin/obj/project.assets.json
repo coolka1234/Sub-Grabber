@@ -429,6 +429,15 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Topdev.OpenSubtitles.Client/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Topdev.OpenSubtitles.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Topdev.OpenSubtitles.Client.dll": {}
+        }
       }
     }
   },
@@ -1229,12 +1238,25 @@
         "system.threading.tasks.dataflow.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Topdev.OpenSubtitles.Client/1.3.0": {
+      "sha512": "YPhXfjWjdXiv23J+mVcCZUH3VZRihnQA6kp51kugUEjrBoNvRIAqhL2FMNHJ+ZDZ9bYumw9p+ziyAY/T9bdXRA==",
+      "type": "package",
+      "path": "topdev.opensubtitles.client/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Topdev.OpenSubtitles.Client.dll",
+        "topdev.opensubtitles.client.1.3.0.nupkg.sha512",
+        "topdev.opensubtitles.client.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Jellyfin.Controller >= 10.10.6",
-      "Jellyfin.Model >= 10.10.6"
+      "Jellyfin.Model >= 10.10.6",
+      "Topdev.OpenSubtitles.Client >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -1287,6 +1309,10 @@
           "Jellyfin.Model": {
             "target": "Package",
             "version": "[10.10.6, )"
+          },
+          "Topdev.OpenSubtitles.Client": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           }
         },
         "imports": [
