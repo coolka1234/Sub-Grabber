@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubGrabberJellyfinPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86c0354c82e3b47924c9df29960700a957d77404")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8504a0a863c9118033c67478303b5472d9b52354")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubGrabberJellyfinPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubGrabberJellyfinPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

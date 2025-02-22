@@ -4,3 +4,10 @@
 /home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.AssemblyInfo.cs
 /home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.csproj.CoreCompileInputs.cache
 /home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.sourcelink.json
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/bin/Debug/net9.0/SubGrabberJellyfinPlugin.deps.json
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/bin/Debug/net9.0/SubGrabberJellyfinPlugin.dll
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/bin/Debug/net9.0/SubGrabberJellyfinPlugin.pdb
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.dll
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/refint/SubGrabberJellyfinPlugin.dll
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.pdb
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/ref/SubGrabberJellyfinPlugin.dll
