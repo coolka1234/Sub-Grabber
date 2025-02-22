@@ -1,0 +1,6 @@
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.csproj.AssemblyReference.cache
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.GeneratedMSBuildEditorConfig.editorconfig
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.AssemblyInfoInputs.cache
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.AssemblyInfo.cs
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.csproj.CoreCompileInputs.cache
+/home/coolka/projects/python/SubGrabber/SubGrabberJellyfinPlugin/obj/Debug/net9.0/SubGrabberJellyfinPlugin.sourcelink.json
